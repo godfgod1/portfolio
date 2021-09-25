@@ -39,6 +39,8 @@ a{
 }
 
 h1{
+    font-size:3rem;
+
     padding-bottom: 20px;
     width:50vw;
     border-bottom: 1px solid;
