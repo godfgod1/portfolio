@@ -2,14 +2,17 @@
 
 
 body {
-    height: 100vh;
+    max-height: 1000vh;
     /* background-size: cover; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 6px gray;
     display: flex;
     flex-direction: column;
-    background-color: #2ecc71;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
   }
 
 
@@ -19,6 +22,10 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    width:80vw;
+    background-color: #2ecc71;
+
+    
   }
 
 a{
@@ -30,3 +37,79 @@ a{
 .hidden{
     display: none;
 }
+
+h1{
+    padding-bottom: 20px;
+    width:50vw;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.infos{
+    display: flex;
+    justify-content:space-around
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info > span, a{
+    margin-bottom: 10px;
+}
+
+.info-center{
+    width:2px;
+background-color: white;
+height:3vh;
+}
+
+header{
+    margin-bottom:10px;
+    border-bottom: 1px solid white;
+}
+
+
+
+.stacks{
+    width:50vw;
+    border-bottom: 1px solid white;
+    margin-bottom:30px;
+}
+.subtitle{
+    font-size:2rem;
+}
+.stack-lists{
+    list-style-type : square;
+   
+}
+
+.stack-lists > li{
+    display: grid;
+    grid-template-columns: 1.2fr 5fr;
+    margin-bottom: 7px;
+}
+.stack-lists .title{
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+
+
+
+
+.stack-lists  h4{
+    display:inline-block;
+    font-size:1.2rem;
+    margin:5px;
+    margin-right: 30px;
+    
+}
+
+img{
+    width: auto; 
+    height: auto;
+    max-width: 100vh;
+    max-height: 100vh;
+}
+
