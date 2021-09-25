@@ -66,17 +66,29 @@
                   <img src="img/mobile-app.gif" />
                   <div class="project-function">
                     <h4>설명</h4>
-                    <span>클라이언트, 서버, 디비까지 3-tier를 풀스택으로 개발한 모바일앱 입니다. <br>
-                         
+                    <span>
+                        클라이언트, 서버, 디비까지 3-tier를 풀스택으로 개발한 모바일앱 입니다. 
                     </span>
                   </div>
                   <div class="project-function">
                     <h4>주요 기능</h4>
-                    <span>회원가입 페이지에서 필수 입력칸은 </span>
+                    <span>
+                        회원가입 페이지에서 필수 입력칸은 입력해야 회원가입 하도록 하였습니다. <br>
+                        중복체크 부분은 디비와 통신하여 중복가입을 방지하도록 하였습니다.<br>
+                        비밀번호 입력은 비밀번호 확인칸과 일치하지 않으면 빨간색이 되도록 하였습니다.<br>
+                        전화번호 입력칸은 정규표현식을 이용해서 자동으로 '-' 이 생기도록 하였습니다.<br>
+                        개인정보 처리방침 동의 약관은 모달창으로 만들었습니다.<br>
+                        회원가입시에는 비밀번호를 해쉬로 저장하도록 하였습니다. <br>
+                        로그인 페이지에서는 디비에 회원정보가 없으면 로그인을 못하도록 방지하였고, <br>
+                        React Native의 asyncStorage 을 사용하여 기기에 로그인 정보를 저장시켰습니다. <br>
+                        따라서 서버가 끊겨도 자동로그아웃 안되도록 하였습니다. <br>
+                        로그아웃 페이지에서도 asyncStorage를 사용하여 로그인 정보를 삭제시키고 <br>
+                        로그인 페이지로 돌아가도록 하였습니다.
+                    </span>
                   </div>
                   <div class="project-stacks">
                     <h4>사용 스택</h4>
-                    <span>React Native, React navigation, Node.js, Express, MySql,Expo, Android Studio</span>
+                    <span>React Native, React navigation, Node.js, Express, MySql, Expo, Android Studio</span>
                   </div>
                   <div class="project-deploy">
                     <h4>배포 주소</span>
