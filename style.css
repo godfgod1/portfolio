@@ -143,13 +143,10 @@ li h4{
     list-style:circle;
 }
 
-button:hover{
+.color, button:hover{
     background-color: white;
-    color:black;
+    color:#2ecc71;
+    border:2px solid #2ecc71;
 }
 
-.color{
-    background-color: white;
-    color:black;
-}
 
