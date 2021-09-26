@@ -2,7 +2,7 @@
 
 
 body {
-    max-height: 1000vh;
+    max-height: 2000vh;
     /* background-size: cover; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -113,5 +113,39 @@ img{
     height: auto;
     max-width: 100vh;
     max-height: 100vh;
+}
+
+button{
+    background-color:transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    color:white;
+    -webkit-box-shadow: 0px 0px 8px 2px white; 
+    box-shadow: 0px 0px 4px 2px white;
+    width:12vw;
+
+    margin-bottom:10px;
+    border-radius:20%;
+
+}
+
+
+li h4{
+    font-size:1.2rem;
+}
+
+.projects li {
+    margin-bottom: 20px;;
+    list-style:circle;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+}
+
+.color{
+    background-color: white;
+    color:black;
 }
 
