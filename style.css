@@ -87,7 +87,6 @@ header{
 }
 .stack-lists{
     list-style-type : square;
-   
 }
 
 .stack-lists > li{
@@ -162,7 +161,6 @@ li h4{
 .logo{
     width:4vw; 
     height:3vh; 
-    
     margin:0;
 }
 .logo-python{
@@ -176,7 +174,6 @@ li h4{
     display:inline-block;
     margin:0;
     margin-top:0.2em;
-
     font-size:1.6rem;
 }
 .logo-python-text{
@@ -184,5 +181,4 @@ li h4{
     margin:0;
     font-size:1.6rem;
     margin-top:0.2em;
-
 }
