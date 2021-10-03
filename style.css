@@ -126,11 +126,10 @@ button{
     color:white;
     -webkit-box-shadow: 0px 0px 8px 2px white; 
     box-shadow: 0px 0px 4px 2px white;
-    width:13vw;
-    height:1.5rem;
+    width:18vw;
+    height:2rem;
     margin-bottom:10px;
-    border-radius:20%;
-
+    border-radius:30px;
 }
 
 
@@ -149,4 +148,41 @@ li h4{
     border:2px solid #2ecc71;
 }
 
+.logo-box{
+    display:flex;
+    direction:row;
+    height:2.5vh;
 
+}
+.logo-box-python{
+    display:flex;
+    direction:row;
+    height:3vh;
+}
+.logo{
+    width:4vw; 
+    height:3vh; 
+    
+    margin:0;
+}
+.logo-python{
+    width:2vw;
+    height:3.5vh; 
+    margin-left:1.2em;
+    margin-right:1.2em;
+}
+
+.logo-text{
+    display:inline-block;
+    margin:0;
+    margin-top:0.2em;
+
+    font-size:1.6rem;
+}
+.logo-python-text{
+    display:inline-block;
+    margin:0;
+    font-size:1.6rem;
+    margin-top:0.2em;
+
+}
